@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #FAFAFA;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    position: fixed;
+    left: 0;
+    width: 25%;
+    height: 50px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DFDFDF;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.nav-group {
+    width: 70%;
+    max-width: 1000px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navgroup-img {
+    height: 100%;
+}
