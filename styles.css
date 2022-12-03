@@ -12,27 +12,218 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-bar {
+/* //main-navigation bar */
+
+.nav-wrapper {
     position: fixed;
     left: 0;
-    width: 25%;
-    height: 50px;
+    top: 0;
+    width: 23%;
+    height: 700px;
     background-color: #FFFFFF;
     border-bottom: 1px solid #DFDFDF;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     padding: 5px 0;
 }
 
 .nav-group {
-    width: 70%;
+    width: 100%;
     max-width: 1000px;
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 8px;
 }
 
-.navgroup-img {
-    height: 100%;
+.logo-img {
+   width: 60%;
+   height: auto;
+   display: block;
+   position: absolute;
+   top: 0;
+   padding-top: 35px;
+   padding-left: 20px;
+
 }
+
+.home-bar {
+    width: 18%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 80px;
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+.homebar-sent {
+    display: inline;
+    position: absolute;
+    top: 140px;
+    left: 85px;
+    font-family:  monospace, Helvetica;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.search-bar {
+    width: 18%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 150px;
+    padding-left: 25px;
+    padding-top: 55px;
+}
+
+.searchbar-sent {
+    display: inline;
+    position: absolute;
+    top: 210px;
+    left: 85px;
+    font-family:  monospace, Helvetica;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.explore {
+    width: 18%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 220px;
+    padding-left: 25px;
+    padding-top: 55px;
+}
+
+.explore-sent {
+    display: inline;
+    position: absolute;
+    top: 280px;
+    left: 85px;
+    font-family:  monospace, Helvetica;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.messages {
+    width: 18%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 290px;
+    padding-left: 25px;
+    padding-top: 55px;
+}
+
+.messages-sent {
+    display: inline;
+    position: absolute;
+    top: 350px;
+    left: 85px;
+    font-family:  monospace, Helvetica;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.notifications {
+    width: 18%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 360px;
+    padding-left: 25px;
+    padding-top: 55px;
+}
+
+.notifications-sent {
+    display: inline;
+    position: absolute;
+    top: 420px;
+    left: 85px;
+    font-family:  monospace, Helvetica;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.add {
+    width: 18%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 430px;
+    padding-left: 25px;
+    padding-top: 55px;
+}
+
+.add-sent {
+    display: inline;
+    position: absolute;
+    top: 490px;
+    left: 85px;
+    font-family:  monospace, Helvetica;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.user-profile {
+    width: 15%;
+    height: 5%;
+    max-width: 1000px;
+    vertical-align: middle;
+    display: inline-block;
+    position: absolute;
+    top: 510px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 50%;
+
+}
+
+.userprofile-sent {
+    display: inline;
+    position: absolute;
+    top: 555px;
+    left: 85px;
+    font-family:  monospace, Helvetica;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menu {
+    width: 18%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 565px;
+    padding-left: 25px;
+    padding-top: 55px;
+}
+
+.menu-sent {
+    display: inline;
+    position: absolute;
+    bottom: 54px;
+    left: 85px;
+    font-family:  monospace, Helvetica;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* //middle part */
