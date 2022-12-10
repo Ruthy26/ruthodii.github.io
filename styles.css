@@ -416,7 +416,8 @@ body {
     /* margin-top: 2px; */
 }
 
-.comment-btn {
+.comment-btn,
+.action-btn {
     width: 70px;
     height: 100%;
     background: none;
@@ -444,4 +445,67 @@ body {
 
 .reaction-wrapper .icon.save {
     margin-left: auto;
+}
+
+/* //right-side codes */
+.right {
+    padding: 20px;
+}
+
+.profile-card {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-card .profile-pic {
+    flex: 0 0 auto;
+    padding: 0;
+    background: none;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.profile-card:first-child .profile-pic {
+    width: 70px;
+    height: 70px;
+}
+
+.profile-card .profile-pic img {
+    border: none;
+}
+
+.profile-card .userstatus {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    position: absolute;
+    top: 1px;
+    right: 40px;
+    margin-top: -15px;
+}
+
+.sub-text {
+    color: rgba(0, 0, 0, 0.5);
+    font: 12px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.action-btn {
+    opacity: 1;
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 70px;
+}
+
+.suggestion-text {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    margin: 20px 0;
+    font-weight: 700;
 }
